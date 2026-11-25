@@ -4,9 +4,12 @@ node_modules/
 # Build output
 build/
 
-# Environment files
-.env/
-.env.example
+# Environment files (all variants — never commit)
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
 
 # Logs
 npm-debug.log*
